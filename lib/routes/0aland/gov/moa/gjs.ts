@@ -121,7 +121,7 @@ export const handler = async (ctx: Context): Promise<Data> => {
 };
 
 export const route: Route = {
-    path: '/moa/gjs/:category{.+}?',
+    path: '/gov/moa/gjs/:category{.+}?',
     name: '中华人民共和国农业农村部国际合作司',
     url: 'www.gjs.moa.gov.cn',
     maintainers: ['nczitzk'],
